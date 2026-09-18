@@ -170,9 +170,11 @@
         <!-- 19 -->
         <li>
             Ссылка, запрещенная для индексации поисковиками:
-            <a href="https://example.com/" rel="nofollow">
+            <!--noindex-->
+            <a href="https://example.com/">
                 example.com
             </a>
+            <!--/noindex-->
         </li>
 
         <!-- 20 -->
@@ -208,7 +210,7 @@
 
         <!-- 21 -->
         <li>
-            <a href="ftp://user:password@example.com/file.txt">
+            <a href="ftp://example.com/file.txt">
                 Ссылка на файл FTP с авторизацией
             </a>
         </li>
